@@ -27,3 +27,7 @@ Visualizaciones:
 ## Diseño
 
 En cuanto al diseño de las visualizaciones se ha procurado aplicar una paleta de colores relacionada con el tema del dataset, en este caso, se trata de un dataset sobre vinos y la valoracion de algunos usuarios en diferentes bodegas, por ello se ha obtado en algunas visualizaciones por una paleta fucsia/morada ya que va acorde con el tema, por otro lado en alguna que otra visualización se ha dejado el color predeterminado (azul), ya que en dicho caso se representaba la indidencia de los usuarios de twitter el cual el color predominante es el azul.
+
+## Conclusiones
+
+Al realizar todo el proceso, desde la limpieza de datos hasta la creación de las visualizaciones se ha visto como de complicado es el tener que tratar los datos teniendo en cuenta las representaciones que quieres llevar a cabo a posteriori, ya que en mi caso he tenido que prescindir de algunos registros que en primera instancia quería utilizar pero al tener tantos registros vacios finalmente he optado por no utilizarlos y realizar otras visualizaciones, además el hecho de tener tantos números de registros lo hacia un poco más complicado en la gestion de y visualización en la plataforma tableau. Por otro lado, me hubiera gustado haber podido realizar la interactividad que tenia pensado, quizás hubiera sido mejor trabajar con tableau desktop.
