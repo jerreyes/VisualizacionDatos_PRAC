@@ -1,5 +1,22 @@
 # VisualizacionDatos_PRAC
 Repositorio para los archivos y visualizaciones para la Practica de Visualización de datos
 
+## Limpieza de datos
 
-    <div class='tableauPlaceholder' id='viz1655151473968' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PR&#47;PRACTICA_16551449974310&#47;Cartograma-MediaPuntuaciones&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PRACTICA_16551449974310&#47;Cartograma-MediaPuntuaciones' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PR&#47;PRACTICA_16551449974310&#47;Cartograma-MediaPuntuaciones&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1655151473968');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+En primer lugar, se ha realizado la limpieza de datos para el dataset propuesto que se encuentra en la plataforma kaggle: https://www.kaggle.com/datasets/zynicide/wine-reviews?datasetId=1442&sortBy=voteCount. Se han realizado diversas operaciones para tratar los registros con datos nulos, se ha realizado tarea de imputacion de valores a través de la media de la columna a imputar. Por otro lado, variables con muchos registros categoricos vacios se han eliminado para de esta manera obtener un dataset con toda la información 'rellenada' posible, que no faltara ningún dato para que sea más sencillo trabajar con el en las representaciones de Tableau.
+
+## Visualizaciones - Tableau
+
+Una vez obtenido el dataset_clean.csv, se procede a introducirlo en la plataforma Tableau public para comenzar a elaborar las diferentes representaciones a partir del mismo, con el objetivo de llegar a responder diversas preguntas relacionadas o enfocadas en la visualización de datos:
+
+ * ¿Como se distribuyen las valoraciones según los diferentes paises?
+ * ¿Cuales son los paises con una puntuacion en su valoración mas elevada?
+ * Cual es la distribución de los vinos según su precio y su puntuación?
+ * ¿Cúales son las bodegas más populares?
+ * ¿Que usuarios (twitter) són los más activos? Aquellos que han realizado más reviews
+ * ¿Cual es la variedad de vino que más valoran los usuarios?
+ * ¿Cual es la variedad de vino más caro?
+
+## Diseño
+
+En cuanto al diseño de las visualizaciones se ha procurado aplicar una paleta de colores relacionada con el tema del dataset, en este caso, se trata de un dataset sobre vinos y la valoracion de algunos usuarios en diferentes bodegas, por ello se ha obtado en algunas visualizaciones por una paleta fucsia/morada ya que va acorde con el tema, por otro lado en alguna que otra visualización se ha dejado el color predeterminado (azul), ya que en dicho caso se representaba la indidencia de los usuarios de twitter el cual el color predominante es el azul.
