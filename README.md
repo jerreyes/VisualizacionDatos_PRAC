@@ -20,8 +20,7 @@ Una vez obtenido el dataset_clean.csv, se procede a introducirlo en la plataform
  * ¿Cual es la variedad de vino que más valoran los usuarios?
  * ¿Cual es la variedad de vino más caro?
 
-
-    Visualizaciones:
+Visualizaciones:
     https://public.tableau.com/views/PRACTICA_16551449974310/Cartograma-MediaPuntuaciones?:language=es-ES&:display_count=n&:origin=viz_share_link
 
 ## Diseño
